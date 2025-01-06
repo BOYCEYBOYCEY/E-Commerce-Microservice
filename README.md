@@ -15,7 +15,7 @@ This project implements an e-commerce platform using a microservices architectur
 * **Service Discovery:** 
     * Utilizes Spring Cloud Eureka for service registration and discovery, enabling dynamic service location and load balancing.
 * **API Gateway:** 
-    * Implements an API Gateway (e.g., Spring Cloud Gateway) to route and manage traffic between microservices, providing centralized security, rate limiting, and monitoring.
+    * Implements an API Gateway (e.g., Spring Cloud Gateway) to route and manage traffic between microservices, providing centralized security, and monitoring.
 * **Security:** 
     * Integrates with Keycloak for OAuth2-based authentication and authorization, ensuring secure communication between services and client applications.
 * **Circuit Breaker Pattern:** 
